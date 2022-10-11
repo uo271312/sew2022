@@ -1,0 +1,98 @@
+/******************************
+Guillermo Pérez Alonso - UO271312
+Descripción de los estilos
+******************************/
+
+/*Especificidad 001*/
+body {
+    font: 400 15px Tahoma, sans-serif;
+    /*Familia sans-serif*/
+    color: black;
+    background-color: cornflowerblue;
+}
+
+/*Especificidad 001*/
+h1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10ch;
+    background-color: white;
+    color: #154EB7;
+
+}
+
+/*Especificidad 001*/
+nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3ch;
+    background-color: rgb(46, 0, 153);
+}
+
+/*Especificidad 001*/
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+
+}
+
+/*Especificidad 001*/
+article {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2ch;
+    background-color: white;
+    color: black;
+
+}
+
+/*Especificidad 001*/
+section {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2ch;
+    background-color: white;
+    color: black;
+
+
+}
+
+/*Especificidad 001*/
+h2 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5ch;
+    color: black;
+
+
+}
+
+/*Especificidad 001*/
+h3 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: size 3ch;
+
+
+}
+
+table{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    border-spacing:  15px;
+    border-collapse:separate;
+    border-style: inset;
+    text-align: center;
+    
+}
+ul{
+    list-style: square;
+}
+
+/*Especificidad 001*/
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cornflowerblue;
+    color: black;
+}
