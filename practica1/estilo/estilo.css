@@ -31,8 +31,9 @@ nav {
 /*Especificidad 001*/
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin: 15px;
+    color:black;
+    font-weight: bold;
+    margin: 10px;
 
 }
 
