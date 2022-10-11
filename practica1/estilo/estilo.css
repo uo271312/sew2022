@@ -5,7 +5,7 @@ Descripción de los estilos
 
 /*Especificidad 001*/
 body {
-    font: 400 15px Tahoma, sans-serif;
+    font: 25 0.9375em Tahoma, sans-serif;
     /*Familia sans-serif*/
     color: black;
     background-color: cornflowerblue;
@@ -15,7 +15,7 @@ body {
 h1 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 10ch;
+    font-size: 0.625em;
     background-color: white;
     color: #154EB7;
 
@@ -26,12 +26,14 @@ nav {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3ch;
     background-color:gray;
+    color: black;
 }
 
 /*Especificidad 001*/
 a {
     text-decoration: none;
     color:black;
+    background-color:gray;
     font-weight: bold;
     margin: 10px;
 
@@ -64,6 +66,7 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 5ch;
     color: black;
+    background-color: white;
 
 
 }
@@ -72,7 +75,7 @@ h2 {
 h3 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font: size 3ch;
+    font-size: 3ch;
 
 
 }
