@@ -8,7 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 99%;
-    flex-wrap:wrap;
    
 
 }
