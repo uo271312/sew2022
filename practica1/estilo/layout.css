@@ -32,6 +32,7 @@ main{
 section{
    margin:1em;
    width: 95%;
+   justify-items: center;
 }
 
 
