@@ -5,68 +5,75 @@ Descripción de los estilos
 
 /*Especificidad 001*/
 body {
-    font: 25 0.9375em Tahoma, sans-serif;
+    font: 1em Tahoma, sans-serif;
     /*Familia sans-serif*/
     color: black;
     background-color: cornflowerblue;
+    line-height: 2.5em;
+
 }
 
 /*Especificidad 001*/
 h1 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 0.625em;
+    font-size: 5em;
     background-color: white;
     color: #154EB7;
+    text-transform: uppercase;
+    padding: 0.3em;
+    text-align: center;
+    border: #154EB7 0.05em solid;
 
 }
 
 /*Especificidad 001*/
 nav {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3ch;
-    background-color:gray;
-    color: black;
-}
-
-/*Especificidad 001*/
-a {
-    text-decoration: none;
+    font-size: 1.5em;
+    background-color: gray;
     color:black;
-    background-color:gray;
-    font-weight: bold;
-    margin: 10px;
+    border:black 0.03em solid;
 
 }
 
+
 /*Especificidad 001*/
-article {
+main {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2ch;
-    background-color: white;
-    color: black;
+    font-size: 1em;
+    background-color: #154EB7;  
+
+    
 
 }
+
 
 /*Especificidad 001*/
 section {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2ch;
+    font-size:1.3em;
     background-color: white;
-    color: black;
-
-
+    padding:2em;
+    text-align: justify;
+    
+   
+    
 }
+
+
 
 /*Especificidad 001*/
 h2 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 5ch;
-    color: black;
+    font-size: 2em;
     background-color: white;
+    text-transform: uppercase;
+    text-align: left;
+
 
 
 }
@@ -75,28 +82,62 @@ h2 {
 h3 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3ch;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: left;
+
 
 
 }
 
-table{
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-    border-spacing:  15px;
-    border-collapse:separate;
+
+/*Especificidad 001*/
+a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1em;
+    color: black;
+
+}
+
+/*Especificidad 001*/
+table {
+    margin-top:4em;
+    border-spacing: 1em;
+    border-collapse: separate;
     border-style: inset;
     text-align: center;
-    
+
 }
-ul{
+
+/*Especificidad 001*/
+ul {
     list-style: square;
+}
+
+/*Especificidad 001*/
+img {
+   margin: 1.5em;
+
+
+}
+
+/*Especificidad 001*/
+audio {
+    
+   margin:1em;
+}
+
+video{
+    
+   margin:1em;
 }
 
 /*Especificidad 001*/
 footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: cornflowerblue;
-    color: black;
+    text-align: left;
+    margin:1em;
+
 }

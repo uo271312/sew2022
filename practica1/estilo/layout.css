@@ -1,0 +1,44 @@
+/******************************
+Guillermo Pérez Alonso - UO271312
+Descripción de los estilos
+******************************/
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    
+   
+
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 2em;
+    align-items: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+   
+    
+    
+}
+
+section{
+   margin:1em;
+   width: 95%;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
