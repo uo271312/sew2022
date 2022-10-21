@@ -5,13 +5,11 @@ Descripción de los estilos
 
 /*Especificidad 001*/
 body {
-    font: 1 em Tahoma, sans-serif;
+    font: 1em Tahoma, sans-serif;
     /*Familia sans-serif*/
     color: black;
     background-color: cornflowerblue;
-    position: relative;
     line-height: 2.5em;
-    margin: 2em;
 
 }
 
@@ -35,6 +33,8 @@ nav {
     font-size: 1.5em;
     background-color: gray;
     color:black;
+    border:black 0.03em solid;
+
 }
 
 
@@ -43,8 +43,9 @@ main {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1em;
-    background-color: #154EB7;
+    background-color: #154EB7;  
 
+    
 
 }
 
@@ -56,9 +57,9 @@ section {
     font-size:1.3em;
     background-color: white;
     padding:2em;
-    text-align: left;
-    margin: 2em;
-    padding: 1em;
+    text-align: justify;
+    
+   
     
 }
 
@@ -95,17 +96,17 @@ a {
     text-decoration: none;
     font-weight: bold;
     margin: 1em;
-    text-decoration: none;
     color: black;
 
 }
 
 /*Especificidad 001*/
 table {
-    margin: 2em;
+    margin-top:4em;
     border-spacing: 1em;
     border-collapse: separate;
     border-style: inset;
+    text-align: center;
 
 }
 
