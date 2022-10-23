@@ -30,7 +30,7 @@ h1 {
 /*Especificidad 001*/
 nav {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 200%;
+    font-size: 180%;
     background-color: gray;
     color: black;
     border: black 0.03em solid;
@@ -42,7 +42,6 @@ nav {
 main {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1em;
     background-color: #154EB7;
 
 
@@ -54,7 +53,7 @@ main {
 section {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 135%;
+    font-size: 115%;
     background-color: white;
     padding: 2.5%;
     text-align: justify;
@@ -69,7 +68,7 @@ section {
 h2 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 200%;
+    font-size: 190%;
     background-color: white;
     text-transform: uppercase;
     text-align: left;
@@ -82,7 +81,7 @@ h2 {
 h3 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150%;
+    font-size: 140%;
     text-transform: uppercase;
     text-align: left;
 
