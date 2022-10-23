@@ -43,7 +43,7 @@ main {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #154EB7;
-
+    /*Hereda  la propiedad "color:black" del padre body*/
 
 
 }
@@ -55,8 +55,10 @@ section {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 115%;
     background-color: white;
+    /*Hereda  la propiedad "color:black" del padre main, que hereda a su vez de body*/
     padding: 2.5%;
     text-align: justify;
+    
 
 
 
@@ -69,7 +71,6 @@ h2 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 190%;
-    background-color: white;
     text-transform: uppercase;
     text-align: left;
 
@@ -97,13 +98,13 @@ a {
     font-weight: bold;
     margin: 5%;
     color: black;
+    /*Hereda  la propiedad "background-color: cornflowerblue" del padre,body*/
 
 }
 
 /*Especificidad 001*/
 table {
     margin-top: 10%;
-    border-spacing: auto;
     border-collapse: separate;
     border-style: inset;
     text-align: center;
@@ -141,7 +142,6 @@ video {
 /*Especificidad 001*/
 footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: cornflowerblue;
     text-align: left;
     margin: 1%;
 
