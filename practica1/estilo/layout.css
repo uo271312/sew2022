@@ -2,22 +2,24 @@
 Guillermo Pérez Alonso - UO271312
 Descripción de los estilos
 ******************************/
-
 body {
 
     display: flex;
     flex-direction: column;
-    width: 99%;
-    flex-wrap: wrap;
+    align-content: space-around;
+    flex-wrap: wrap; 
+    
 
 }
-
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
     height: 2em;
     align-items: center;
+   
+   
 
 }
 
@@ -26,23 +28,23 @@ main {
     flex-direction: row;
     justify-items: center;
     width: 100%;
-
-
+    align-content: space-around;
 
 }
 
 section {
-    display: flex;
-    flex-direction: column;
+    
     width: 100%;
     margin: 1em;
+    
    
 }
-
 
 
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap:wrap;
 }
+
