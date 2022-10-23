@@ -142,8 +142,8 @@ video {
 /*Especificidad 001*/
 footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
     margin: 1%;
+    background-color: rgba(92, 195, 255, 0.753);
 
 }
 
