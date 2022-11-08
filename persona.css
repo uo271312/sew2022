@@ -17,7 +17,7 @@ h2{
 }
 /*Especificidad 001*/
 p{
-    color:gray;
+    color:black;
 	/*No se especifica color de fondo porque hereda el color de fondo de body*/
 }
 /*Especificidad 001*/
