@@ -1,24 +1,28 @@
+/*Especificidad 001*/
 body{
     background-color:white;
     color:black;
 	margin-left:10%;
 }
+/*Especificidad 001*/
 h1{
     text-align:center;
    
 }
+/*Especificidad 001*/
 h2{
     text-align:left;
     color:blue;
 	/*No se especifica color de fondo porque hereda el color de fondo de body*/
 }
-
+/*Especificidad 001*/
 p{
     color:gray;
 	/*No se especifica color de fondo porque hereda el color de fondo de body*/
 }
+/*Especificidad 001*/
 img{
-	height:300px; 
-    width : 450px;
+	height:5%; 
+    width : 20%;
 	margin-right:5%;
 }
