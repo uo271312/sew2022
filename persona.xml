@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "persona.dtd">
+<persona nombre="Guillermo" apellidos="Perez Alonso">
+	<nacimiento>
+		<lugar>Oviedo</lugar>
+		<fecha dia="16" mes="Abril" año="1999"/>
+		<coordenadas long="-5.8447600" lat="43.3602900" alt="232"/>
+	</nacimiento>
+	<residencia>
+		<lugar>Oviedo</lugar>
+		<coordenadas long="-5.866581" lat="43.363582" alt="232"/>
+	</residencia>
+	<foto>https://d1bvpoagx8hqbg.cloudfront.net/259/db979f657bbc1cabab652840e6f2dbd0.jpg</foto>
+	<video>https://www.youtube.com/embed/BRglcg1XrF8</video>
+	<comentario>Estudiante Ingenieria informatica</comentario>
+	<comentario>Estudio en el IES La Eria</comentario>
+	<persona nombre="Juan" apellidos="Garcia Vazquez">
+		<nacimiento>
+			<lugar>Oviedo</lugar>
+			<fecha dia="24" mes="Abril" año="1998"/>
+			<coordenadas long="-5.8547600" lat="43.3702900" alt="232"/>
+		</nacimiento>
+		<residencia>
+			<lugar>Oviedo</lugar>
+			<coordenadas long="-5.866581" lat="43.363582" alt="232"/>
+		</residencia>
+		<foto>https://i.pinimg.com/236x/cf/d9/20/cfd9207b94f200a98e0be1722b68da09.jpg</foto>
+		<video>https://www.youtube.com/embed/k1-QnwqI3Ck</video>
+		<persona nombre="Adrian" apellidos="Gonzalez Valdes">
+			<nacimiento>
+				<lugar>Oviedo</lugar>
+				<fecha dia="02" mes="Enero" año="2000"/>
+				<coordenadas long="-5.8487600" lat="43.3612900" alt="232"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Oviedo</lugar>
+				<coordenadas long="-5.852530" lat="43.365647" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/54/2a/64/542a648020815706729fa315ef96a76c.jpg</foto>
+		</persona>
+		<persona nombre="David" apellidos="Suarez Calvino">
+			<nacimiento>
+				<lugar>Oviedo</lugar>
+				<fecha dia="30" mes="Febrero" año="2001"/>
+				<coordenadas long="-5.8887600" lat="43.0277900" alt="235"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Oviedo</lugar>
+				<coordenadas long="-5.866581" lat="43.363582" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/db/e2/88/dbe288e44fc8317eb3aff3ebbb3c2796.jpg </foto>
+			<comentario>Estudiante medicina</comentario>
+		</persona>
+		<persona nombre="Ana" apellidos="Lombardia Palomares">
+			<nacimiento>
+				<lugar>Oviedo</lugar>
+				<fecha dia="16" mes="Abril" año="1999"/>
+				<coordenadas long="-5.8848600" lat="43.3802900" alt="222"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Oviedo</lugar>
+				<coordenadas long="-5.866581" lat="43.363582" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/79/5e/c9/795ec9cbc974940a952c09dfc9dd0bd9.jpg</foto>
+			<foto>https://i.pinimg.com/564x/9e/32/36/9e32364f13f6278e39ddf522e3fd1d89.jpg</foto>
+			<comentario>Emprendedor</comentario>
+		</persona>
+	</persona>
+	<persona nombre="Miguel" apellidos="Castro Berron">
+		<nacimiento>
+			<lugar>Gijon</lugar>
+			<fecha dia="29" mes="Abril" año="1999"/>
+			<coordenadas long="-5.668411" lat="43.551784" alt="232"/>
+		</nacimiento>
+		<residencia>
+			<lugar>Gijon</lugar>
+			<coordenadas long="-5.658411" lat="43.531784" alt="232"/>
+		</residencia>
+		<foto>https://i.pinimg.com/564x/00/09/e7/0009e78353f5f5c06c941c8eca1b4791.jpg</foto>
+		<persona nombre="Pelayo" apellidos="Rodrigues Fernandez">
+			<nacimiento>
+				<lugar>Aviles</lugar>
+				<fecha dia="18" mes="Mayo" año="2002"/>
+				<coordenadas long="-5.8747600" lat="43.3802900" alt="232"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Oviedo</lugar>
+				<coordenadas long="-5.919991" lat="43.551189" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/a8/aa/76/a8aa76d19ce8dac18fe7cffb581a1b4d.jpg</foto>
+			<foto>https://i.pinimg.com/564x/ff/4f/ae/ff4fae0c278bcd5ac96874dd1c81df8a.jpg</foto>
+			<video>https://www.youtube.com/embed/HdBI304XOOs</video>
+		</persona>
+		<persona nombre="Jorge" apellidos="Amez Garcia">
+			<nacimiento>
+				<lugar>Oviedo</lugar>
+				<fecha dia="01" mes="Diciembre" año="1997"/>
+				<coordenadas long="-5.8444400" lat="43.3666900" alt="230"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Luanco</lugar>
+				<coordenadas long="-5.792421" lat="43.613013" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/93/74/51/9374515be25e71e938b5e63b01f0b292.jpg</foto>
+			<comentario>Me encanta viajar</comentario>
+		</persona>
+		<persona nombre="Silvia" apellidos="Garcia Suarez">
+			<nacimiento>
+				<lugar>A coruna</lugar>
+				<fecha dia="19" mes="Junio" año="1999"/>
+				<coordenadas long="-8.403408" lat="43.350380" alt="21"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Betanzos</lugar>
+				<coordenadas long="-8.210012" lat="43.280556" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/08/c7/5d/08c75db084efa79f8df278f3323c12be.jpg</foto>
+			<foto>https://i.pinimg.com/564x/7e/2e/12/7e2e129ddb43977eb8d2c9c1c9e4a6f1.jpg</foto>
+			<video>https://www.youtube.com/embed/eYzvqNCn4-w</video>
+			<comentario>Medico</comentario>
+			<comentario>Viviendo en USA</comentario>
+		</persona>
+	</persona>
+	<persona nombre="Luis" apellidos="Sanchez Ferreiro">
+		<nacimiento>
+			<lugar>Santander</lugar>
+			<fecha dia="07" mes="Marzo" año="2000"/>
+			<coordenadas long="-3.824764" lat="43.459136" alt="232"/>
+		</nacimiento>
+		<residencia>
+			<lugar>Santander</lugar>
+			<coordenadas long="-3.793007" lat="43.479069" alt="232"/>
+		</residencia>
+		<foto>https://i.pinimg.com/564x/b1/dd/ee/b1ddee913a6dd4ca6027bac32a77c6cc.jpg</foto>
+		<persona nombre="Jairo" apellidos="Beronda Jamart">
+			<nacimiento>
+				<lugar>Sevilla</lugar>
+				<fecha dia="16" mes="Agosto" año="2003"/>
+				<coordenadas long="-5.964790" lat="37.380607" alt="232"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Malaga</lugar>
+				<coordenadas long="-4.426843" lat="36.721687" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/ad/5a/da/ad5ada27e01cfc6355e6eb67af7f4b99.jpg</foto>
+		</persona>
+		<persona nombre="Ares" apellidos="Fernandez Fernandez">
+			<nacimiento>
+				<lugar>Valencia</lugar>
+				<fecha dia="22" mes="Junio" año="1994"/>
+				<coordenadas long="-0.345659" lat="39.465608" alt="232"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Gandia</lugar>
+				<coordenadas long="-0.169796" lat="38.980134" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/d4/37/a8/d437a8f817c00c7a14e302d5a53532d5.jpg</foto>
+		</persona>
+		<persona nombre="David" apellidos="Garcia Coto">
+			<nacimiento>
+				<lugar>Barcelona</lugar>
+				<fecha dia="27" mes="Noviembre" año="1999"/>
+				<coordenadas long="2.180264" lat="41.396513" alt="232"/>
+			</nacimiento>
+			<residencia>
+				<lugar>Barcelona</lugar>
+				<coordenadas long="2.162430" lat="41.352041" alt="232"/>
+			</residencia>
+			<foto>https://i.pinimg.com/564x/cb/2b/4e/cb2b4e1906a04b983b2800d22074b16e.jpg</foto>
+			<comentario>Me encanta viajar</comentario>
+		</persona>
+	</persona>
+</persona>
