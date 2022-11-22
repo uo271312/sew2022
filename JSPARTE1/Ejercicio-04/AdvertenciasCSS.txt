@@ -1,0 +1,2 @@
+Tanto para el main como para el input no hay color de primer plano establecido porque este se hereda de body,
+para el h1 no hay color de primer plano establecido porque se hereda de body.

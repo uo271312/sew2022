@@ -1,0 +1,31 @@
+/**Especificidad 001 **/
+body{
+    background-color:white;
+    color:black;
+}
+/**Especificidad 001 **/
+h1{
+    text-align:center;
+   
+}
+/**Especificidad 001 **/
+h2{
+    text-align:center;
+    color:orange;
+}
+/**Especificidad 001 **/
+h3{
+    text-align:center;
+    color:blue;
+}
+/**Especificidad 001 **/
+h4{
+    text-align:center;
+    color:green;
+}
+/**Especificidad 001 **/
+p{
+    margin-left: 4%;
+}
+
+/**No hay color de fondo establecido para h2,h3 y h4 porque este se hereda de body**/

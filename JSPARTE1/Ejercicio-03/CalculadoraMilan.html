@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>Calculadora Milán</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraMilan.css" />
+    <script src="CalculadoraMilan.js"></script>
+    </head>
+    <body>
+        
+        <h1>Calculadora Milan</h1>
+
+			<main>
+                <section>
+                <input type="text" id="pantalla" value="0" disabled/>
+                 </section>
+                 <form>
+				<input type="button" id="ON/C" value="ON/C" onclick="calculadora.borrarTodo();"/>
+				<input type="button" id="CE" value="CE" onclick="calculadora.cero();"/>
+				<input type="button" id="masMenos" value="+/-" onclick="calculadora.masMenos();"/>
+				<input type="button" id="sqrt" value="&#8730;"  onclick="calculadora.raiz();"/>
+				<input type="button" id="porcentage" value="%"  onclick="calculadora.porcentage();"/>
+                <input type="button" id="7" value="7"  onclick="calculadora.digitos('7');"/>
+                <input type="button" id="8" value="8"  onclick="calculadora.digitos('8');"/>
+                <input type="button" id="9" value="9"  onclick="calculadora.digitos('9');"/>
+                <input type="button" id="multiplicacion" value="*"  onclick="calculadora.multiplicacion('*');"/>
+				<input type="button" id="division" value="/"  onclick="calculadora.division();"/>
+				<input type="button" id="cuatro" value="4"  onclick="calculadora.digitos('4');"/>
+                <input type="button" id="cinco" value="5"  onclick="calculadora.digitos('5');"/>
+                <input type="button" id="seis" value="6"  onclick="calculadora.digitos('6');"/>
+                <input type="button" id="menos" value="-"  onclick="calculadora.resta();"/>
+				<input type="button" id="mrc" value="mrc"   onclick="calculadora.mrc();"/>
+                <input type="button" id="uno" value="1"  onclick="calculadora.digitos('1');"/>
+                <input type="button" id="dos" value="2"  onclick="calculadora.digitos('2');"/>
+                <input type="button" id="tres" value="3"  onclick="calculadora.digitos('3');"/>
+				<input type="button" id="mas" value="+"  onclick="calculadora.suma();"/>
+				<input type="button" id="mmenos" value="m-"   onclick="calculadora.mMenos();"/>
+                <input type="button" id="cero" value="0"  onclick="calculadora.digitos('0');"/>
+                <input type="button" id="coma" value="."  onclick="calculadora.punto('.');"/>
+				<input type="button" id="igual" value="="  onclick="calculadora.igual();"/>
+				<input type="button" id="mmas" value="m+"  onclick="calculadora.mMas();"/>
+            </form>
+			</main>
+        
+		
+    </body>
+</html>

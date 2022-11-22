@@ -1,0 +1,46 @@
+
+/*Especificidad 001*/
+body{
+background-color: white;
+color: black;
+display:flex;
+flex-direction: column;
+
+
+}
+/*Especificidad 001*/
+h1{
+    text-align: center;
+	/**No hay color de primer plano establecido porque este se hereda de body**/
+	background-color:rgb(189, 179, 179);
+	text-transform: uppercase;
+}
+
+/*Especificidad 001*/
+h2{
+	text-transform: uppercase;
+}
+
+/*Especificidad 001*/
+main{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+/*Especificidad 001*/
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/**No hay color de primer plano establecido porque este se hereda de body**/
+	background-color:rgb(189, 179, 179);
+}
+/*Especificidad 001*/
+input{
+	font-weight: bold;
+	text-align:center;
+	width: 20%;
+	margin:0.5%;
+}
+

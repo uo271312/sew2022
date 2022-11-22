@@ -1,0 +1,1 @@
+Tanto para el H1 como para section, No hay color de primer plano establecido porque este se hereda de body.

@@ -1,0 +1,1 @@
+No hay color de fondo establecido para h1,h2,h3 y h4 porque este se hereda de body
