@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>Calculadora coordenadas</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraEspecializada.css" />
+    <script src="CalculadoraEspecializada.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    </head>
+    <body>
+        
+        <h1>Calculadora coordenadas</h1>
+            <main>
+            <section>
+                <h2>Calculador distancias</h2>  
+                <label for="lat1">Latitud primer punto:</label>
+                <input type="text" id="lat1" />
+                <label for="lon1">Longitud primer punto:</label>
+                <input type="text" id="lon1" />
+                <label for="lat2">Latitud segundo punto:</label>
+                <input type="text" id="lat2" />
+                <label for="lon2">Longitud segundo punto:</label>
+                <input type="text" id="lon2" />
+                <input type="button" value="Calcular Distancia"  onclick="calculadora.calcularDistancia()"/>
+                <label for="distancia">Distancia:</label>
+                <input type="text" id="distancia" disabled/>
+            </section>
+				
+				
+             <section> 
+                <h2>Convertidor coordenadas</h2>  
+                <label for="lat">Latitud:</label>
+                <input type="text" id="lat" />
+                <label for="lon">Longitud::</label>
+                <input type="text" id="lon"/>
+                <input type="button"  value="Convertir a UTM"  onclick="calculadora.convertirUTM()"/>
+                <label for="formatoUTM">En formato UTM:</label>
+                <input type="text" id="formatoUTM" disabled/>
+            </section>
+
+            </main>
+        
+		
+        
+    </body>
+</html>

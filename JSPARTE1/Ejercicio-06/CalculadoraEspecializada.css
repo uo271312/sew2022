@@ -1,0 +1,56 @@
+
+/*Especificidad 001*/
+body{
+background-color: gray;
+color: black;
+display:flex;
+flex-direction: column;
+margin:1%;
+
+
+
+}
+/*Especificidad 001*/
+h1{
+    text-align: center;
+	/**No hay color de primer plano establecido porque este se hereda de body**/
+	background-color:white;;
+	text-transform: uppercase;
+	margin:1%;
+}
+
+/*Especificidad 001*/
+h2{
+	text-transform: uppercase;
+	margin:1%;
+}
+
+/*Especificidad 001*/
+main{
+	display: flex;
+	flex-direction: column;
+	margin:1%;
+	
+	
+}
+/*Especificidad 001*/
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/**No hay color de primer plano establecido porque este se hereda de body**/
+	background-color:white;
+	margin:1%;
+}
+/*Especificidad 001*/
+input{
+	font-weight: bold;
+	text-align:center;
+	width: 20%;
+	margin:0.5%;
+	font-size: 120%;
+}
+label{
+	font-size: 120%;
+}
+
