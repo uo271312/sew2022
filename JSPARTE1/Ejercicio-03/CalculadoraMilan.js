@@ -131,6 +131,7 @@ class CalculadoraMilan{
 
 	}
     actualizarPantalla(){
+		
 		var r=document.getElementById("pantalla");
 		r.value=this.pantalla;
         
