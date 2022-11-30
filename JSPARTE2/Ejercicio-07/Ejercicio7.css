@@ -1,0 +1,97 @@
+ /*Especificidad 001*/
+ body {
+ 	background-color: rgba(0, 255, 34, 0.822);
+ 	color: black;
+
+
+ }
+
+ /*Especificidad 001*/
+ h1 {
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	font-size: 320%;
+
+ }
+
+ /*Especificidad 001*/
+ h2 {
+ 	text-align: center;
+ 	font-size: 250%;
+
+ }
+
+ /*Especificidad 001*/
+ h3 {
+ 	text-align: center;
+ 	font-size: 220%;
+
+ }
+
+ /*Especificidad 001*/
+ main {
+ 	background-color: rgb(116, 216, 137);
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: left;
+ 	font-size: 150%;
+ 	margin-bottom: 2%;
+ 	margin-left: 3%;
+ 	margin-right: 3%;
+ 	border-color: black;
+ 	border-style: solid;
+ 	border-width: 100%;
+
+
+ }
+
+ /*Especificidad 001*/
+ p {
+ 	margin-left: 4%;
+ }
+
+ /*Especificidad 001*/
+ label {
+ 	margin-left: 4%;
+ }
+
+ /*Especificidad 001*/
+ input {
+ 	font-size: 80%;
+ 	text-align: center;
+ 	margin-bottom: 1%;
+ 	margin-top: 1%;
+ 	margin-right: 80%;
+ 	margin-left: 4%;
+ }
+
+ /*Especificidad 001*/
+ select {
+ 	margin-right: 80%;
+ 	text-align: center;
+ 	margin-left: 4%;
+ }
+
+ /*Especificidad 001*/
+ table {
+ 	margin-top: 2%;
+ 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 	background-color: white;
+ 	border: 0.2em solid;
+ 	width: 50%;
+ 	margin-left: 4%;
+ }
+
+ /*Especificidad 001*/
+ th,
+ td {
+ 	text-align: center;
+ 	border: 0.1em solid;
+ 	border-collapse: collapse;
+ }
+
+ /*Especificidad 001*/
+ footer {
+ 	margin-top: 30%;
+ 	text-align: center;
+ }
