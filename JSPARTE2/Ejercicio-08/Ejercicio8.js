@@ -39,6 +39,7 @@ class Meteo {
             url: this.url,
             method: 'GET',
             success: function (datos) {
+            
                 var stringDatos = "<tr><th>Parametros</th><th>Datos</th></tr>";
                 stringDatos += "<tr><td>Ciudad:</td><td>" + datos.name + "</td></tr>";
                 stringDatos += "<tr><td>País:</td><td> " + datos.sys.country + "</td></tr>";

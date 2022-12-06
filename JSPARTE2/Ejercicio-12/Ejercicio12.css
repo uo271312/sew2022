@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+p{
+    text-align: left;
+    color: black;
+}
+footer{
+    margin-top:2em;
+}
+footer a img{
+    height:31px; 
+    width:88px;
+}

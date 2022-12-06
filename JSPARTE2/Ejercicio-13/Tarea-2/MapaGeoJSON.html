@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>API File: Leer un archivo GeoJSON</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="MapaGeoJSON.css" />
+	<script src="MapaGeoJSON.js"></script>
+</head>
+<body>
+<h1>API para Leer un archivo GeoJSON</h1>    
+<label for="subir archivos">Seleccione un archivo de texto: </label>  
+
+<input type="file" id="subirArchivos" onchange="mapa.leerArchivo(this.files);">
+  
+
+
+<main></main>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCemP3Ka1zWS6PW1HG6AFAnerFCZoggCuQ&callback=mapa.initMap"></script>
+
+
+</body>
+</html>

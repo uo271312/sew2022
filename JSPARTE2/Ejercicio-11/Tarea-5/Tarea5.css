@@ -1,0 +1,14 @@
+
+/* Siempre debe ponerse explícitamente la altura del mapa, definiendo el tamaño del elemento div que contiene el mapa*/
+main {
+    height: 500px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+h2{
+    text-align: center;
+    color: green;
+}

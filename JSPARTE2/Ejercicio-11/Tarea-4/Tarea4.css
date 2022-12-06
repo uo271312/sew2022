@@ -1,0 +1,6 @@
+
+/* Siempre debe ponerse explícitamente la altura del mapa, definiendo el tamaÃ±o del elemento div que contiene el mapa*/
+main {
+    height: 500px;
+    width: 100%;
+}

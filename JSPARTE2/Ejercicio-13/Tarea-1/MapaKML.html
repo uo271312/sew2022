@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+ 
+
+  <meta charset="UTF-8" />
+  <meta name="author" content="Guillermo Perez Alonso" />
+  <meta name="description" content="Ejercicio 13 SEW" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 13</title>
+  <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="MapaKML.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCemP3Ka1zWS6PW1HG6AFAnerFCZoggCuQ&callback=mapa.initMap"></script>
+</head>
+
+<body>
+  
+  <h1>Mapa KML</h1>
+  <label for="subirArchivo">Subir archivo KML:</label>
+  <input type="file" id="subirArchivo" onchange="mapa.cargarKML(this.files)" />
+  <main></main>
+
+
+</body>
+
+</html>

@@ -37,7 +37,7 @@ class Ejercicio {
             res = cons - 161;
 
 
-        $("#calorias").val(res);
+        $("input:nth-of-type(11)").val(res);
 
 
     }
@@ -49,7 +49,7 @@ class Ejercicio {
             var padre = $(this).parent().get(0).tagName;
             $(this).prepend(document.createTextNode("Elemento padre : <" + padre + "> Tipo elemento : <" + $(this).get(0).tagName + ">"));
         });
-        $("#recorrerYmostrar").prop('disabled', true);
+        $("input:nth-of-type(12)").prop('disabled', true);
 
     }
 

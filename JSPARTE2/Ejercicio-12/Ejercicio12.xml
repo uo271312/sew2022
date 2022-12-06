@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+<ruta nombre="Sinuosa">
+<tipo>Paisajistica</tipo> 
+<medioTransporte>Moto</medioTransporte>
+<dificultad>Media</dificultad>
+<duracion duracion="2" unidad="horas"/>
+<agencia>Sin agencia</agencia>
+<descripcion>
+ Si buscas deleitar la vista, no te puedes perder esta pequeña ruta de unos 40 kilómetros que transcurren
+ entre Asturias y Castilla y León. Recorre la sinuosa carretera entre algunas de las zonas más impresionantes de las 
+ estribaciones de los Picos de Europa.
+ </descripcion>
+ <publico>para todo tipo de personas</publico>
+ <recomendacion>7</recomendacion>
+ <lugarInicio>Cangas de Onís</lugarInicio>
+ <direccionInicio>Avenida Covadonga</direccionInicio>
+ <coordenadasInicio lat="43.3588058" lon="-5.8438143" alt="87"/>
+	
+
+	<referencia>
+		https://www.palaciodeaviles.com/blog/rutas-en-moto-por-asturias/
+	</referencia>
+	<referencia>
+		http://www.tusrutasenmoto.com/ruta-en-moto-por-asturias-desfiladero-de-los-beyos-y-puerto-del-ponton/
+	</referencia>
+	<referencia>
+	https://es.wikipedia.org/wiki/Cangas_de_On%C3%ADs
+	</referencia>
+
+
+
+<hito>
+<nombreHito>Cangas de Onís</nombreHito>
+<descripcionHito>Uno de los lugares mas bonitos de Asturias y un imprescindible del principado que destaca sobre todo por su precioso puente romano</descripcionHito>
+<coordenadas lat="43.350518" lon="-5.129040" alt="57"/>
+	
+<distancia distancia="0" unidad="km"/>
+
+<foto>https://hotelintriago.com/wp-content/uploads/2018/10/puente-romano-cangas-de-onis-hotel-trapa.jpg</foto>
+
+
+</hito>
+<hito>
+<nombreHito>Puente Vidosa</nombreHito>
+<descripcionHito>Localizado en un el centro del parque nacional y sobrevolando el rio Sella se encuentra una de las ubicaciones mas
+bonitas de toda la ruta</descripcionHito>
+<coordenadas lat="43.209559" lon="-5.090559" alt="281"/>
+	
+<distancia distancia="21" unidad="km"/>
+
+<foto>http://1.bp.blogspot.com/_MB0FbD_CyGo/TM3hA_KMc-I/AAAAAAAAYz4/kMjIaZdYwps/s1600/puente+vidosa1.JPG</foto>
+
+
+</hito>
+
+<hito>
+<nombreHito>Puerto del Pontón</nombreHito>
+<descripcionHito>El puerto del Pontón es un paso de montaña que alcanza una cota máxima de 1280 msnm, 
+situado en la provincia de León (Castilla y León, España).</descripcionHito>
+<coordenadas lat="43.1014125" lon="-5.0250428" alt="1280"/>
+<distancia distancia="24" unidad="km"/>
+
+<foto>https://estaticos2.ileon.com/resources/files/2019/10/4/1570193977392N-625pasoporRibota-OsejadeSajambre-LosBeyosdn.jpg</foto>
+
+
+</hito>
+
+
+</ruta>
+<ruta nombre="De San Sebastian a Santiago de Compostela">
+<tipo>Paisajistica y turística</tipo> 
+<medioTransporte>Moto</medioTransporte>
+<dificultad>Media</dificultad>
+<duracion duracion="2" unidad="dias"/>
+<agencia>Sin agencia</agencia>
+<descripcion>
+ Dos de las ciudades predilectas para iniciar o terminar rutas en moto se unen para dar lugar a una super ruta en moto apta para moteros 
+ de verdad. Esta ruta pasa por toda la costa cantábrica así que no hace falta decir que los paisajes y las carreteras que unos sus 
+ maravillosos pueblos son la experiencia obligada para todo amante de la motos. 
+ </descripcion>
+ <publico>para todo tipo de personas</publico>
+ <recomendacion>8</recomendacion>
+ <lugarInicio>San Sebastian</lugarInicio>
+ <direccionInicio>Paseo del Duque de Mandas</direccionInicio>
+ <coordenadasInicio lat="43.3111243" lon="-1.9766895" alt="5"/>
+	
+
+	<referencia>
+		https://motoshare.es/blog/las-mejores-rutas-moto-espana
+	</referencia>
+	<referencia>
+		https://es.wikipedia.org/wiki/San_Sebasti%C3%A1n
+	</referencia>
+	<referencia>
+		https://es.wikipedia.org/wiki/Santiago_de_Compostela
+	</referencia>
+
+
+
+<hito>
+<nombreHito>San Sebastian</nombreHito>
+<descripcionHito>San Sebastián es una ciudad turística situada en la montañosa región española del País Vasco. Es conocida por la playa
+ de la Concha y la playa de Ondarreta, que destacan por su pintoresco paseo frente a la bahía y sus restaurantes de prestigio mundial 
+ dirigidos por chefs innovadores. En la adoquinada Parte Vieja, las tiendas de lujo coexisten con bares de pinchos maridados con vinos 
+ locales y especialidades regionales del tamaño de un bocado.</descripcionHito>
+<coordenadas lat="43.316306" lon="-1.984784" alt="2"/>
+	
+<distancia distancia="0" unidad="km"/>
+
+<foto>https://www.hola.com/imagenes/viajes/2016090988246/imprescindibles-san-sebastian/0-388-896/Donosti-panoramica-t.jpg</foto>
+
+
+</hito>
+<hito>
+<nombreHito>Santander</nombreHito>
+<descripcionHito>Santander es una ciudad situada en el norte de España, capital de la comunidad autónoma uniprovincial de Cantabria.
+Es la capital de comunidad autónoma más septentrional de España y una de las ciudades más importantes del norte del país. 
+El municipio limita al norte con el mar Cantábrico, al este con la bahía homónima, que lo rodea también por el sur junto al 
+municipio de Camargo y al oeste limita con el municipio de Santa Cruz de Bezana. </descripcionHito>
+<coordenadas lat="43.464425" lon="-3.817629" alt="7"/>
+	
+<distancia distancia="197" unidad="km"/>
+
+<foto>https://postureocantabro.com/wp-content/uploads/2019/04/SANTANDER-ES-LA-CIUDAD-MEJOR-VALORADA-DE-ESPANA-POR-LOS-TURISTAS-1280x720.jpg</foto>
+
+
+</hito>
+<hito>
+<nombreHito>Santiago de Compostela</nombreHito>
+<descripcionHito>Santiago de Compostela es la capital de la región de Galicia en el noroeste de España. Es conocida como la culminación 
+de la ruta de peregrinación del Camino de Santiago y se supone que es el sitio donde yacen los restos del apóstol Santiago. </descripcionHito>
+<coordenadas lat="42.880662" lon="-8.546018" alt="2"/>
+	
+<distancia distancia="491" unidad="km"/>
+
+<foto>https://fotos.hoteles.net/articulos/guia-santiago-de-compostela-2681-1.jpg</foto>
+</hito>
+
+
+</ruta>
+<ruta nombre="Desde Oviedo hasta Madrid">
+<tipo>Turística</tipo> 
+<medioTransporte>Moto</medioTransporte>
+<dificultad>Media</dificultad>
+<duracion duracion="5" unidad="horas"/>
+<agencia>Sin agencia</agencia>
+<descripcion>
+ Esta maravillosa ruta te permitirá conocer 3 de las ciudades mas icónicas de la península a través de las llanuras de Castilla y León
+ </descripcion>
+ <publico>para todo tipo de personas</publico>
+ <recomendacion>7</recomendacion>
+ <lugarInicio>Oviedo</lugarInicio>
+ <direccionInicio>Ronda Sur</direccionInicio>
+ <coordenadasInicio lat="43.359218" lon="-5.838285" alt="213"/>
+	
+
+	<referencia>
+	https://www.moto1pro.com/reportajes-motos/seis-rutas-en-moto-para-viajar-por-espana-este-verano
+	</referencia>
+	<referencia>
+	https://es.wikipedia.org/wiki/Madrid
+	</referencia>
+	<referencia>
+	https://es.wikipedia.org/wiki/Oviedo
+	</referencia>
+
+
+
+<hito>
+<nombreHito>Oviedo</nombreHito>
+<descripcionHito>Uno de los lugares mas bonitos de Asturias y un imprescindible del principado que destaca sobre todo por su precioso puente romano</descripcionHito>
+<coordenadas lat="43.359218" lon="-5.838285" alt="213"/>
+	
+<distancia distancia="0" unidad="km"/>
+
+<foto>https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/asturias/catedral-oviedo-s787405777.jpg_1014274486.jpg</foto>
+
+</hito>
+<hito>
+<nombreHito>León</nombreHito>
+<descripcionHito>León, capital de la provincia de León, es una ciudad del noroeste de España situada junto al río Bernesga. 
+La ciudad alberga muchas iglesias y catedrales que destacan por su arquitectura y arte.</descripcionHito>
+<coordenadas lat="42.598196" lon="-5.572077" alt="844"/>
+	
+<distancia distancia="125" unidad="km"/>
+
+<foto>https://fotos.hoteles.net/articulos/guia-leon-ciudad-3209-1.jpg</foto>
+
+
+</hito>
+
+<hito>
+<nombreHito>Madrid</nombreHito>
+<descripcionHito>La capital española es un sitio indispensable para visitar al menos una vez en tu vida. Podrás disfrutar deuna gran variedad
+de propuestas gastronómicas y conocer todos los secretos y joyas artísticas que posee esta increible ciudad</descripcionHito>
+<coordenadas lat="40.468164" lon="-3.723981" alt="650"/>
+<distancia distancia="338" unidad="km"/>
+
+<foto>https://www.collegiate-ac.es/propeller/uploads/sites/3/2019/10/city-hero-madrid-1450x742.jpg</foto>
+
+
+</hito>
+
+</ruta>
+</rutas>
