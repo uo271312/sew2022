@@ -2,6 +2,7 @@
 body{
     background-color: white;
     color: black;
+    font-size: 120%;
 }
 /*Especificidad 001*/
 h1{
