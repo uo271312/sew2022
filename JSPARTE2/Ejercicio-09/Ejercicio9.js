@@ -44,7 +44,7 @@ class Meteo {
                 var fechaMedidaLocal = (new Date(horaMedidaMiliSeg1970)).toLocaleDateString("es-ES");
                 var icon = $('weather', datos).attr("icon");
 
-                var stringDatos = "<tr><th>Parametros</th><th>Datos</th></tr>";
+                var stringDatos = "<table><tr><th>Parametros</th><th>Datos</th></tr>";
                 stringDatos += "<tr><td>Ciudad: </td><td>" + ciudad + "</td></tr>";
                 stringDatos += "<tr><td>Longitud:</td><td> " + longitud + " grados</td></tr>";
                 stringDatos += "<tr><td>Latitud: </td><td>" + latitud + " grados</td></tr>";
@@ -61,9 +61,9 @@ class Meteo {
                 stringDatos += "<tr><td>Descripcion:</td><td> " + descripcion + "</td></tr>";
                 stringDatos += "<tr><td>Hora de la medida: </td><td>" + horaMedidaLocal + "</td></tr>";
                 stringDatos += "<tr><td>Fecha de la medida:</td><td> " + fechaMedidaLocal + "</td></tr>";
-                stringDatos += "<tr><td>Icono</td><td><img src='http://openweathermap.org/img/w/" + icon + ".png' alt='' /></td></tr>";
+                stringDatos += "<tr><td>Icono</td><td><img src='http://openweathermap.org/img/w/" + icon + ".png' alt='' /></td></tr></table>";
 
-                $("table").html(stringDatos);
+                $("main").html(stringDatos);
             }
         });
     }

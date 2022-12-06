@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8" />
+	<title>Ejercicio 9</title>
+	<meta name="author" content="Guillermo Perez Alonso" />
+	<meta name="description" content="Pagina que consume servicios web" />
+	<meta name="keywords" content="tiempo,weather,jQuery" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="Ejercicio9.css" />
+	<script src="Ejercicio9.js"></script>
+</head>
+<body>
+    <h1>Datos meteorológicos</h1>
+    
+    <p>Datos meteorológicos proporcionados por: <a href="http://openweathermap.org/">OpenWeatherMap</a></p>
+    <label for="ciudad">Escoge una ciudad:</label>
+    <select name="ciudad" id="ciudad">
+        <option value="" disabled="" selected="">Ciudad</option>
+        <option value="Oviedo">Oviedo</option>
+        <option value="Mieres">Mieres</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Valladolid">Valladolid</option>
+        <option value="Madrid">Madrid</option>
+    </select>
+
+    <input type="button" value="Obtener XML" onclick="meteo.cargarDatos()">
+
+    <main><table><tbody><tr><th>Parametros</th><th>Datos</th></tr><tr><td>Ciudad: </td><td>Oviedo</td></tr><tr><td>Longitud:</td><td> -5.8448 grados</td></tr><tr><td>Latitud: </td><td>43.3603 grados</td></tr><tr><td>País:</td><td> ES</td></tr><tr><td>Temperatura:</td><td> 10.92 grados Celsius</td></tr><tr><td>Temperatura mínima:</td><td> 8.49 grados Celsius</td></tr><tr><td>Temperatura máxima:</td><td> 13.38 grados Celsius</td></tr><tr><td>Humedad:</td><td> 100 %</td></tr><tr><td>Presión: </td><td>1013 hPa</td></tr><tr><td>Velocidad del viento:</td><td> 0.37 metros/segundo</td></tr><tr><td>Dirección del viento:</td><td> 235 grados</td></tr><tr><td>Nombre del viento:</td><td> Calm</td></tr><tr><td>Precipitación valor:</td><td> undefined</td></tr><tr><td>Descripcion:</td><td> nubes</td></tr><tr><td>Hora de la medida: </td><td>10:45:09</td></tr><tr><td>Fecha de la medida:</td><td> 6/12/2022</td></tr><tr><td>Icono</td><td><img src="http://openweathermap.org/img/w/04d.png" alt=""></td></tr></tbody></table></main>
+    
+    
+
+</body></html>

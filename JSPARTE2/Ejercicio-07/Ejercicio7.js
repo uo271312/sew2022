@@ -65,7 +65,8 @@ class Ejercicio {
 
         });
 
-        $("tr:last").after("Total: " + total_col);
+        $("tr:last").after("<tr><th>Total</th><td>"+total_col+"</td>")
+        
 
 
     }

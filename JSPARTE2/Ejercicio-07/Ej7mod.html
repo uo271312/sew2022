@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
 
-<head>
+<html lang="es"><head>
 	<meta charset="UTF-8">
 	<title>Plan semanal</title>
-	<meta name="author" content="Guillermo Perez Alonso" />
-	<meta name="description" content="Pagina que ayuda a planificar la dieta" />
-	<meta name="keywords" content="dieta,calorias,jQuery" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+	<meta name="author" content="Guillermo Perez Alonso">
+	<meta name="description" content="Pagina que ayuda a planificar la dieta">
+	<meta name="keywords" content="dieta,calorias,jQuery">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Ejercicio7.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="Ejercicio7.js"></script>
 </head>
@@ -23,7 +22,7 @@
 		<input type="button" value="Monstrar info" onclick="ej.monstrar()">
 		<input type="button" value="Ocultar info" onclick="ej.ocultar()">
 
-		<p>Web que permite organizar nuestra alimentación a lo largo de la semana. Ha sido desarrollada
+		<p style="display: none;">Web que permite organizar nuestra alimentación a lo largo de la semana. Ha sido desarrollada
 			utilizando
 			JQuery y los conocimientos
 			obtenidos a lo largo de la asignatura.
@@ -31,37 +30,37 @@
 
 
 		<label for="edad">Edad(años):</label>
-		<input type="text" id="edad" />
+		<input type="text" id="edad">
 		<input type="button" id="añadirEdad" value="Añadir edad" onclick="ej.añadirEdad()">
 
 
 		<label for="altura">altura(cm):</label>
-		<input type="text" id="altura" />
+		<input type="text" id="altura">
 		<input type="button" value="Añadir altura" onclick="ej.añadirAltura()">
 
 
 		<label for="peso">Peso(kg):</label>
-		<input type="text" id="peso" />
+		<input type="text" id="peso">
 		<input type="button" value="Añadir peso" onclick="ej.añadirPeso()">
 
 		<input type="button" value="Eliminar campos" onclick="ej.eliminarCampos()">
-		<p>Edad:</p>
-		<p>Altura:</p>
-		<p>Peso:</p>
+		<p>Edad:22</p>
+		<p>Altura:180</p>
+		<p>Peso:83</p>
 		<select name="sexo" id="sexo">
-			<option disabled selected>Sexo</option>
+			<option disabled="" selected="">Sexo</option>
 			<option>Hombre</option>
 			<option>Mujer</option>
 		</select>
 		<input type="button" value="Calcular" onclick="ej.calcularCalorias()">
 		<label for="calorias">Calorias:</label>
-		<input type="text" id="calorias" disabled />
+		<input type="text" id="calorias" disabled="">
 
 
 		<input type="button" value="Recorrer y monstrar" onclick="ej.recorrerYmonstrar()">
 
 		<table>
-			<tr>
+			<tbody><tr>
 				<th>Lunes</th>
 				<td>1900</td>
 			</tr>
@@ -88,8 +87,8 @@
 			<tr>
 				<th>Domingo</th>
 				<td>2300</td>
-			</tr>
-		</table>
+			</tr><tr><th>Total</th><td>15700</td></tr><tr><th>Total</th><td>31400</td></tr>
+		</tbody></table>
 
 		<input type="button" value="Calcular total" onclick="ej.calculateSum()">
 
@@ -98,16 +97,13 @@
 	<footer>
 		<p>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer">
-				<img style="border:0;width:88px;height:31px"
-					src="http://jigsaw.w3.org/css-validator/images/vcss"
-					alt="¡CSS Válido!" />
+				<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!">
 			</a>
 			<a href="https://validator.w3.org/check?uri=referer">
-				<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"  
-				alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" />
+				<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63">
 			</a>
 		</p>
 	</footer>
-</body>
 
-</html>
+
+</body></html>

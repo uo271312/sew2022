@@ -40,7 +40,7 @@ class Meteo {
             method: 'GET',
             success: function (datos) {
             
-                var stringDatos = "<tr><th>Parametros</th><th>Datos</th></tr>";
+                var stringDatos = "<table><tr><th>Parametros</th><th>Datos</th></tr>";
                 stringDatos += "<tr><td>Ciudad:</td><td>" + datos.name + "</td></tr>";
                 stringDatos += "<tr><td>País:</td><td> " + datos.sys.country + "</td></tr>";
                 stringDatos += "<tr><td>Latitud:</td><td> " + datos.coord.lat + " grados</td></tr>";
@@ -59,9 +59,9 @@ class Meteo {
                 stringDatos += "<tr><td>Descripción:</td><td>" + datos.weather[0].description + "</td></tr>";
                 stringDatos += "<tr><td>Visibilidad: </td><td>" + datos.visibility + " metros</td></tr>";
                 stringDatos += "<tr><td>Nubosidad:</td><td> " + datos.clouds.all + " %</td></tr>";
-                stringDatos += "<tr><td>Icono</td><td><img src='http://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='' /></td></tr>";
+                stringDatos += "<tr><td>Icono</td><td><img src='http://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='' /></td></tr></table>";
 
-                $("table").html(stringDatos);
+                $("main").html(stringDatos);
             }
         });
     }
