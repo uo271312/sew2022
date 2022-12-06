@@ -1,16 +1,23 @@
+
+/*Especificidad 001*/
+body{
+    background-color: white;
+    color: black;
+}
+/*Especificidad 001*/
 h1{
+
     text-align: center;
     color: red;
 }
 
-p{
+/*Especificidad 001*/
+h2{
     text-align: left;
     color: black;
 }
-footer{
-    margin-top:2em;
-}
-footer a img{
-    height:31px; 
-    width:88px;
+/*Especificidad 001*/
+p{
+    text-align: left;
+    color: black;
 }

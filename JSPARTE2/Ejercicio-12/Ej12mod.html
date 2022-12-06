@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 12</title>
+	<meta name="author" content="Guillermo Perez Alonso">
+	<meta name="description" content="API file">
+	<meta name="keywords" content="file,jQuery">
+	<link rel="stylesheet" type="text/css" href="Ejercicio12.css">
+	<script src="Ejercicio12.js"></script>
+</head>
+<body>
+<h1>API para Leer un archivo de texto de la máquina cliente</h1>    
+<label for="subirArchivos">Seleccione un archivo de texto: </label>    
+<input type="file" id="subirArchivos" onchange="carga.subirArchivos(this.files);">
+
+<section>
+	<h2>Informacion archivo</h2>   
+		<p>Nombre:Ejercicio12.json</p>
+		<p>Tamaño del archivo:493bytes</p>
+		<p>Tipo de archivo:application/json</p>
+		<p>Ultima modificacion:Sat Nov 28 2020 12:34:56 GMT+0100 (hora estándar de Europa central)</p>
+		<p>{<br>    "marcadores": [<br>      {<br>        "latitude": 40.416875,<br>        "longitude": -3.703308,<br>        "city": "Madrid",<br>        "description": "Puerta del Sol"<br>      },<br>      {<br>        "latitude": 40.417438,<br>        "longitude": -3.693363,<br>        "city": "Madrid",<br>        "description": "Paseo del Prado"<br>      },<br>      {<br>        "latitude": 40.407015,<br>        "longitude": -3.691163,<br>        "city": "Madrid",<br>        "description": "Estación de Atocha"<br>      }<br>    ]<br>}</p>
+		<p>No existen errores</p>
+</section>
+
+
+
+</body></html>

@@ -2,7 +2,7 @@ var miApp = new Object();
 
 function initApp(){  
     var centro = {lat: 43.3672702, lng: -5.8502461};
-    var mapaGeoposicionado = new google.maps.Map(document.getElementById('mapa'),{
+    var mapaGeoposicionado = new google.maps.Map(document.getElementsByTagName('main')[0],{
         zoom: 8,
         center:centro,
         mapTypeId: google.maps.MapTypeId.ROADMAP

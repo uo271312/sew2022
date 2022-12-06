@@ -1,30 +1,29 @@
 
-/* Siempre debe ponerse explícitamente la altura del mapa, definiendo el tamaño del elemento div que contiene el mapa*/
-main {
-    height: 500px;
-    width: 100%;
+/*Especificidad 001*/
+body{
+    background-color: white;
+    color: black;
 }
+/*Especificidad 001*/
 h1{
+
     text-align: center;
-    color: blue;
+    color: red;
 }
+/*Especificidad 001*/
 h2{
     text-align: center;
     color: green;
 }
-p{
-    text-align: left;
-    color: black;
-}
-
-section{
-  margin-right: 5%;
+/*Especificidad 001*/
+main {
+    height: 500px;
+    width: 100%;
 }
 /*Especificidad 001*/
 table {
 	margin-top: 2%;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	background-color: white;
 	border: 0.2em solid;
 }
 

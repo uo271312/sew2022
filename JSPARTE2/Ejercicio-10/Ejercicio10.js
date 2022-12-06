@@ -24,23 +24,34 @@ class Gasolina {
 
 
             success: function (datos) {
+                $("pre").text(JSON.stringify(datos, null, 2));
+                var listaPrecios = [];
 
-                for (var item in datos.ListaEESSPrecio) {
-                    if (item.municipio == this.municipio) {
-                        
-                        var stringDatos = "<tr><th>Municipio</th><td>" + item.Municipio + "</td></tr>";
-                        stringDatos += "<tr><th>Localidad</th><td> " + item.Localidad+ "</td></tr>";
-                        stringDatos += "<tr><th>Precio</th><td> " + item.Precio_x0020_Gasolina_x0020_95_x0020_E5+ "</td></tr>";
-                       
+                $.each(datos['ListaEESSPrecio'], function (i, data) {
+                    listaPrecios.push(parseFloat(data['Precio Gasolina 95 E5'].replace(",", ".")))
 
-                        $("table").html(stringDatos);
-                        break;
+                });
 
-                    }
+                var i = 0;
+                var estaciones = 0;
+                var suma = 0;
+                
+                for(i;i < listaPrecios.length;i++) {
+                     
+                    let precio = listaPrecios[i++];
+                    if (!Number.isNaN(precio))
+                        estaciones++;
+                    suma += listaPrecios[i++] || 0.0;
                 }
+                console.log(Math.min(listaPrecios.filter(precio => !Number.isNaN(precio))))
+                
+                var stringDatos =  "<table><tr><th>Precio medio gasolina de 95 en España</th><th>"+ (suma / estaciones) + "</th></tr>";
+                stringDatos += "<tr><th>Gasolineras sobre las que se realizó la media</th><th>"+ estaciones + "</th></tr></table>";
+                
+                $("main").html(stringDatos);
 
 
-            }
+            },
 
         });
     }

@@ -1,21 +1,16 @@
-
-/* Siempre debe ponerse explícitamente la altura del mapa, definiendo el tamaño del elemento div que contiene el mapa*/
-#mapa {
+/*Especificidad 001*/
+main {
     height: 500px;
     width: 100%;
+    
 }
+/*Especificidad 001*/
 h1{
     text-align: center;
     color: red;
 }
+/*Especificidad 001*/
 p{
     text-align: left;
     color: black;
-}
-footer{
-    margin-top:2em;
-}
-footer a img{
-    height:31px; 
-    width:88px;
 }

@@ -1,21 +1,21 @@
+/*Especificidad 001*/
+body{
+    background-color: white;
+    color: black;
+}
+/*Especificidad 001*/
 main {
     height: 500px;
     width: 100%;
     margin: 1em;
 }
+/*Especificidad 001*/
 h1{
     text-align: center;
     color: red;
 }
-
+/*Especificidad 001*/
 p{
     text-align: left;
     color: black;
-}
-footer{
-    margin-top:2em;
-}
-footer a img{
-    height:31px; 
-    width:88px;
 }

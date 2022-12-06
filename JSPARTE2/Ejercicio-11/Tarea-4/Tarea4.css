@@ -1,5 +1,15 @@
+/*Especificidad 001*/
+body{
+    background-color: white;
+    color: black;
+}
+/*Especificidad 001*/
+h1{
 
-/* Siempre debe ponerse explícitamente la altura del mapa, definiendo el tamaÃ±o del elemento div que contiene el mapa*/
+    text-align: center;
+    color: red;
+}
+/*Especificidad 001*/
 main {
     height: 500px;
     width: 100%;
