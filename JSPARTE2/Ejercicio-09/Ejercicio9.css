@@ -3,7 +3,7 @@ body {
 	background-color: white;
 	color: black;
 	margin-left: 2%;
-	font-size: 130%;
+	font-size: 140%;
 }
 
 /*Especificidad 001*/
@@ -15,14 +15,17 @@ h1 {
 	border-color:black;
 	border-style:  solid;
 	
+	
 }
 /*Especificidad 001*/
 input{
-	font-size: 100%;
+	font-size: 120%;
+	margin-left: 3%;
 }
 /*Especificidad 001*/
 select{
-	font-size: 100%;
+	margin:2%;
+	font-size: 120%;
 }
 
 /*Especificidad 001*/
@@ -38,10 +41,4 @@ td {
 	text-align: center;
 	border: 0.1em solid;
 	border-collapse: collapse;
-}
-
-/*Especificidad 001*/
-footer {
-	margin-top: 30%;
-	text-align: center;
 }

@@ -45,8 +45,8 @@ class Gasolina {
                 }
                 console.log(Math.min(listaPrecios.filter(precio => !Number.isNaN(precio))))
                 
-                var stringDatos =  "<table><tr><th>Precio medio gasolina de 95 en España</th><th>"+ (suma / estaciones) + "</th></tr>";
-                stringDatos += "<tr><th>Gasolineras sobre las que se realizó la media</th><th>"+ estaciones + "</th></tr></table>";
+                var stringDatos =  "<table><tr><th>Precio medio gasolina de 95 en España</th><td>"+ (suma / estaciones) + "</td></tr>";
+                stringDatos += "<tr><th>Gasolineras sobre las que se realizó la media</th><td>"+ estaciones + "</td></tr></table>";
                 
                 $("main").html(stringDatos);
 
