@@ -23,8 +23,9 @@ main {
   /**No hay color de primer plano establecido porque se hereda de body**/
   background-color: gray;
   border-radius: 4%;
-  width: 30%;
-  min-width:55%;
+  max-width: 100%;
+  min-width:30%;
+  height: auto;
 
 }
 
