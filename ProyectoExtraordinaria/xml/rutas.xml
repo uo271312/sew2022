@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rutas xmlns="http://tempuri.org/rutas"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://tempuri.org/rutas rutas.xsd">
+	<ruta>
+		<nombre>Ruta de los molinos</nombre>
+		<tipo>Arquitectura y monumentos</tipo>
+		<medio_transporte>A pie</medio_transporte>
+		<duracion>2 horas</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion>Una ruta que te llevará a visitar los antiguos molinos de la región.</descripcion>
+		<personas_adecuadas>Se puede ir con niños</personas_adecuadas>
+		<lugar_inicio>Capilla de La Vírgen de La Velía</lugar_inicio>
+		<direccion_inicio>Ruta de Los Molinos Bimenes, La Llera BI-4,, 33528 Nava, Asturias</direccion_inicio>
+		<coordenadas_inicio>
+			<longitud>43.30910</longitud>
+			<latitud>-5.54408</latitud>
+			<altitud>200</altitud>
+		</coordenadas_inicio>
+		<referencias_bibliografia>
+			<referencia>https://www.losviajesdealifog.com/ruta-de-los-molinos-de-bimenes-nava/</referencia>
+			<referencia>https://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/ruta-los-molinos</referencia>
+			<referencia>https://www.bimenes.es/ruta-de-los-molinos</referencia>
+		</referencias_bibliografia>
+		<recomendacion>7</recomendacion>
+		<hitos>
+			<hito>
+				<nombre>Puente La Llera</nombre>
+				<descripcion>Antiguo puente</descripcion>
+				<coordenadas>
+					<longitud>43.31036</longitud>
+					<latitud>-5.54253</latitud>
+					<altitud>350</altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">0</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta1-1-1.jpg</fotografia>
+					<fotografia>multimedia/ruta1-1-2.jpg</fotografia>
+				</galeria_fotografias>
+			</hito>
+			<hito>
+				<nombre>Molín Maxima</nombre>
+				<descripcion>Antiguo molino con vistas a la montaña.</descripcion>
+				<coordenadas>
+					<longitud>43.30834</longitud>
+					<latitud>-5.54190</latitud>
+					<altitud>424 </altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">1.3</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta1-2-1.jpg</fotografia>
+				</galeria_fotografias>
+			</hito>
+			<hito>
+				<nombre>Molín Honorio</nombre>
+				<descripcion>Antiguo molino cerca del río.</descripcion>
+				<coordenadas>
+					<longitud>43.308907</longitud>
+					<latitud>-5.533495</latitud>
+					<altitud>580</altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">1.6</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta1-3-1.jpg</fotografia>
+				</galeria_fotografias>
+			</hito>
+		</hitos>
+		
+	</ruta>
+	<ruta>
+		<nombre>Ruta de Las Hoces del Río Pendón</nombre>
+		<tipo>Naturaleza y paisajes</tipo>
+		<medio_transporte>A pie</medio_transporte>
+		<duracion>4 horas</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion>Una ruta impresionante que te llevará a explorar las hermosas hoces del Río Pendón.</descripcion>
+		<personas_adecuadas>Recomendada para excursionistas experimentados</personas_adecuadas>
+		<lugar_inicio>Embotelladora Fuensanta</lugar_inicio>
+		<direccion_inicio>Balneario Fuensanta, s/n, 33520 Nava, Asturias</direccion_inicio>
+		<coordenadas_inicio>
+			<longitud>43.290187</longitud>
+			<latitud>-5.498712</latitud>
+			<altitud>180</altitud>
+		</coordenadas_inicio>
+		<referencias_bibliografia>
+			<referencia>https://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/ruta-foces-del-pendon</referencia>
+			<referencia>https://es.wikiloc.com/rutas-senderismo/asturias-hoces-del-rio-pendon-11662574</referencia>
+			<referencia>https://animalesviajeros.es/ruta-foces-del-rio-pendon-y-pico-varallonga-que-hacer-en-nava/</referencia>
+		</referencias_bibliografia>
+		<recomendacion>9</recomendacion>
+		<hitos>
+			<hito>
+				<nombre>Fuensanta, fábrica de agua</nombre>
+				<descripcion>Embotelladora de Fuensanta</descripcion>
+				<coordenadas>
+					<longitud>43.34556</longitud>
+					<latitud>-5.48593</latitud>
+					<altitud>300</altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">0</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta2-1-1.jpg</fotografia>
+					<fotografia>multimedia/ruta2-1-2.jpg</fotografia>
+				</galeria_fotografias>
+			</hito>
+			<hito>
+				<nombre>Puente Pendón</nombre>
+				<descripcion>Emocionante puente colgante que cruza el Pendón.</descripcion>
+				<coordenadas>
+					<longitud>43.328941</longitud>
+					<latitud>-5.478548</latitud>
+					<altitud>380</altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">4</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta2-2-1.jpg</fotografia>
+				</galeria_fotografias>
+				<galeria_videos>
+					<video>multimedia/rutavideo2-2-1.mp4</video>
+				</galeria_videos>
+			</hito>
+			<hito>
+				<nombre>Cascada</nombre>
+				<descripcion>Impresionante cascada de gran altura en medio del entorno natural.</descripcion>
+				<coordenadas>
+					<longitud>43.33225</longitud>
+					<latitud>-5.48682</latitud>
+					<altitud>570</altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">2.5</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta2-3-1.jpg</fotografia>
+				</galeria_fotografias>
+			</hito>
+		</hitos>
+		
+	</ruta>
+	<ruta>
+		<nombre>Ruta de la Ribera del Río Peña</nombre>
+		<tipo>Naturaleza y paisajes</tipo>
+		<medio_transporte>A pie</medio_transporte>
+		<duracion>3 horas</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion>El río será el eterno compañero del senderista a través de esta ruta que discurre entre frondosos bosques de ribera</descripcion>
+		<personas_adecuadas>Se puede ir con niños</personas_adecuadas>
+		<lugar_inicio>Nava, Asturias</lugar_inicio>
+		<direccion_inicio>Unnamed Road, 33529 Nava, Asturias</direccion_inicio>
+		<coordenadas_inicio>
+			<longitud>43.34179</longitud>
+			<latitud>-5.50267</latitud>
+			<altitud>310</altitud>
+		</coordenadas_inicio>
+		<referencias_bibliografia>
+			<referencia>https://www.ayto-nava.es/ruta-de-la-ribera-del-rio-pena</referencia>
+			<referencia>https://es.wikiloc.com/rutas-a-pie/pr-as-198-ruta-de-la-ribera-del-rio-de-la-pena-15507988</referencia>
+			<referencia>https://guiadeasturias.com/lugar/ruta-la-ribera-del-rio-pena-rio-sera-eterno-companero-del-senderista/</referencia>
+			<referencia>https://www.lacomarcadelasidra.com/web-2-0-directory/ruta-la-ribera-del-rio-la-pena-p-r-as-198-nava/</referencia>
+		</referencias_bibliografia>
+		<recomendacion>6</recomendacion>
+		<hitos>
+			<hito>
+				<nombre>Puente Pra</nombre>
+				<descripcion>Antiguo puente que cruzaa el rio Peña</descripcion>
+				<coordenadas>
+					<longitud>43.33579</longitud>
+					<latitud>-5.51071</latitud>
+					<altitud>320</altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">1.2</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta3-1-1.jpg</fotografia>
+				</galeria_fotografias>
+			</hito> 
+			<hito>
+				<nombre>Molino</nombre>
+				<descripcion>Antiguo molino</descripcion>
+				<coordenadas>
+					<longitud>43.34135</longitud>
+					<latitud>-5.51689</latitud>
+					<altitud>320 </altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">1.3</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta3-2-1.jpg</fotografia>
+				</galeria_fotografias>
+			</hito>
+			<hito>
+				<nombre>Gradatila</nombre>
+				<descripcion>Pueblo cerca de Nava</descripcion>
+				<coordenadas>
+					<longitud>43.34513</longitud>
+					<latitud>-5.51242</latitud>
+					<altitud>360</altitud>
+				</coordenadas>
+				<distancia_anterior unidad="km">1.6</distancia_anterior>
+				<galeria_fotografias>
+					<fotografia>multimedia/ruta3-3-1.jpg</fotografia>
+					<fotografia>multimedia/ruta3-3-2.jpg</fotografia>
+					<fotografia>multimedia/ruta3-3-3.jpg</fotografia>
+				</galeria_fotografias>
+	
+				
+			</hito>
+		</hitos>
+		
+	</ruta>
+</rutas>

@@ -1,0 +1,28 @@
+<!ELEMENT rutas (ruta,ruta,ruta,ruta*)>
+<!ELEMENT ruta (nombre, tipo, medio_transporte, duracion, agencia, descripcion, personas_adecuadas, lugar_inicio, direccion_inicio, coordenadas_inicio, referencias_bibliografia, recomendacion, hitos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT medio_transporte (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT personas_adecuadas (#PCDATA)>
+<!ELEMENT lugar_inicio (#PCDATA)>
+<!ELEMENT direccion_inicio (#PCDATA)>
+<!ELEMENT coordenadas_inicio (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT referencias_bibliografia (referencia,referencia,referencia,referencia*)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT hitos (hito,hito,hito,hito*)>
+<!ELEMENT hito (nombre, descripcion, coordenadas, distancia_anterior, galeria_fotografias, galeria_videos?)>
+<!ELEMENT coordenadas (longitud, latitud, altitud)>
+<!ELEMENT distancia_anterior (#PCDATA)>
+<!ATTLIST distancia_anterior unidad CDATA #IMPLIED>
+<!ELEMENT galeria_fotografias (fotografia,fotografia?,fotografia?,fotografia?,fotografia?)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ELEMENT galeria_videos (video?,video?,video?)>
+<!ELEMENT video (#PCDATA)>
+
