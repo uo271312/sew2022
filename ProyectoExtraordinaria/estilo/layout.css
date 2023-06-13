@@ -1,0 +1,133 @@
+/*Hoja de estilos en la que se define el layout, los margenes o la separación de los elementos*/
+
+
+/*Especificidad 001*/
+h1,
+h2 {
+    margin-bottom: 3%;
+}
+
+/*Especificidad 001*/
+nav {
+    padding: 0.1%;
+}
+
+/*Especificidad 001*/
+table {
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+
+/*Especificidad 001*/
+nav ul li {
+    display: inline;
+    margin-right: 1%;
+}
+
+
+/*Especificidad 001*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Especificidad 001*/
+video,
+audio {
+    width: 100%;
+}
+
+/*Especificidad 001*/
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap:1%;
+    padding: 1%;
+}
+
+/*Especificidad 001*/
+header {
+    grid-column: 1 / -1;
+}
+
+/*Especificidad 001*/
+nav {
+    grid-column: 1 / -1;
+}
+
+/*Especificidad 001*/
+main {
+    grid-column: 1 / -1;
+    margin-left: 3%;
+    margin-right: 2%;
+    text-align: left;
+}
+
+/*Especificidad 001*/
+section:nth-child(2) {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Especificidad 001*/
+section:nth-child(3) {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+ 
+}
+
+  
+
+ input {
+    margin: 1%;
+    width: 15%;
+  }
+
+  section table{
+    width: 40%;
+  }
+  
+  section img {
+    max-width: 65%;
+    height: auto;
+  }
+
+/*Especificidad 001*/
+footer {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    max-height: 0.003em;
+    padding: 4%;
+    
+}
+
+/*Especificidad 001*/
+ul,li,dd,dt,dl {
+
+    margin-bottom: 1%;
+}
+
+
+/*Especificidad 003*/
+nav ul li {
+    margin-left: 2%;
+}
+
+/*Especificidad 001*/
+th,
+td {
+    padding: 1%;
+   
+}

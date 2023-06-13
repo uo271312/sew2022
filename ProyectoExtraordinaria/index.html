@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo/estilo.css">
+  <link rel="stylesheet" href="estilo/layout.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/carrusel.js"></script>
+  <script src="js/meteorologia.js"></script>
+  <script src="js/mapa.js"></script>
+  <script src="js/fechaYhora.js"></script>
+  <script src="js/noticias.js"></script>
+  <title>Nava</title>
+</head>
+
+<body>
+  <header>
+    <h1>Nava, Asturias</h1>
+    <!-- Menú de navegación -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Página principal</a></li>
+        <li><a href="gastronomia.html">Gastronomía</a></li>
+        <li><a href="rutas.html">Rutas</a></li>
+        <li><a href="meteorologia.html">Meteorología</a></li>
+        <li><a href="juego.html">Juego</a></li>
+        <li><a href="reservas.html">Reservas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Acerca del concejo</h2>
+    <p>
+      El concejo de Nava es un hermoso municipio situado en la región de Asturias, al norte de España. Conocido como la
+      "capital de la sidra", Nava es famoso por su tradición en la producción de esta refrescante bebida asturiana. Sus
+      verdes prados y montañas, salpicados de numerosos manzanos, crean un paisaje encantador que invita a explorar la
+      naturaleza en su máximo esplendor.
+    </p>
+    <p>
+      Además de su reconocida tradición sidrera, Nava cuenta con un rico patrimonio histórico y cultural. En el casco
+      antiguo del municipio, se pueden encontrar encantadoras calles empedradas y casas de arquitectura tradicional
+      asturiana. Destaca la Iglesia de San Bartolomé, de estilo gótico, que data del siglo XVII y es considerada uno de
+      los principales monumentos de la localidad. Asimismo, Nava alberga el Museo de la Sidra, un espacio dedicado a la
+      historia y el proceso de elaboración de esta emblemática bebida, donde los visitantes pueden aprender sobre su
+      importancia cultural y degustar diferentes variedades de sidra.
+    </p>
+    <p>
+      En resumen, el concejo de Nava ofrece una combinación única de naturaleza, tradición y cultura. Sus paisajes
+      deslumbrantes y su legado sidrero hacen de este lugar un destino fascinante para los amantes de la naturaleza, la
+      historia y la gastronomía tradicional asturiana.
+    </p>
+  </section>
+    <section>
+      <h2>Galeria de fotos</h2>
+      <input type="button" value="Anterior" onclick="car.avanzar()">
+      <input type="button" value="Siguiente" onclick="car.atrasar()">
+      <img src="multimedia/imagen1.jpg" alt="Imagen del concejo de nava">
+    </section>
+    <section title="tiempoYubicacion"><h2>Tiempo y ubicación</h2></section>
+    <section title="fechaYhora"><h2>Ultima actualizacion</h2></section>
+    <section title="noticias"><h2>Noticias</h2></section>
+
+
+
+
+
+  </main>
+  <footer>
+    <p>Web concejo de Nava</p>
+    <p>Guillermo Pérez Alonso</p>
+    <p>Software y Estándares para la Web - Curso 2022/2023</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+/*Hoja de estilos en la que se define el layout, los margenes o la separación de los elementos*/
+
+
+/*Especificidad 001*/
+h1,
+h2 {
+    margin-bottom: 3%;
+}
+
+/*Especificidad 001*/
+nav {
+    padding: 0.1%;
+}
+
+
+/*Especificidad 001*/
+nav ul li {
+    display: inline;
+    margin-right: 1%;
+}
+
+
+/*Especificidad 001*/
+video,
+audio {
+    width: 100%;
+}
+
+/*Especificidad 001*/
+body {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*Especificidad 001*/
+input,select {
+    margin: 1%;
+    width: 15%;
+
+}
+
+
+
+/*Especificidad 001*/
+footer {
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    max-height: 0.003em;
+    padding: 4%;
+    
+}
+
+/*Especificidad 003*/
+nav ul li {
+    margin-left: 2%;
+}
+

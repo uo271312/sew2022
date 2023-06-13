@@ -1,0 +1,77 @@
+/*Hoja de estilos en la que se definen los estilos relacionados con la fuente, colores, estilos de bordes*/
+
+
+
+/*Especificidad 001*/
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+/*Especificidad 001*/
+p {
+    text-align: justify;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/*Especificidad 002*/
+footer p {
+    font-size: 1500%;
+}
+
+
+
+/*Especificidad 001*/
+nav {
+    background-color: black;
+    color: white;
+
+}
+
+
+/*Especificidad 004*/
+nav ul li a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+/*Especificidad 001*/
+h1 {
+    font-size: 400%;
+}
+
+/*Especificidad 001*/
+h2 {
+    font-size: 300%;
+}
+
+/*Especificidad 001*/
+h3 {
+    font-size: 180%;
+}
+/*Especificidad 001*/
+h4 {
+    font-size: 150%;
+}
+
+
+/*Especificidad 001*/
+input{
+    font-size: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+}
+
+
+/*Especificidad 001*/
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 10%;
+}
